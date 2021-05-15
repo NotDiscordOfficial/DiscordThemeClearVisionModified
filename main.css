@@ -260,13 +260,12 @@ textarea,
           user-select: none;
   order: 1;
 }
-.typeWindows-1za-n7 > .wordmark-2iDDfm:before, .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+.typeWindows-1za-n7 > .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
   margin-left: 3px;
   font-weight: 600;
   white-space: nowrap;
   order: 1;
 }
-
 .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
   content: "v6.1.0";
   color: rgba(255, 255, 255, 0.3);
@@ -1211,7 +1210,7 @@ textarea,
   position: relative;
   margin-bottom: 10px;
 }
-.container-3baos1:before, .container-3baos1:after {
+.container-3baos1:after {
   bottom: -8px;
   position: absolute;
   color: rgba(255, 255, 255, 0.3);
